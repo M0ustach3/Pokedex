@@ -1,0 +1,26 @@
+{
+  "name": "projet_web_bonus",
+  "version": "1.0.0",
+  "description": "Le projet Bonus de Web Orienté Mobile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint *.js --fix",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "pokemon",
+    "vuejs"
+  ],
+  "author": "Pablo BONDIA-LUTTIAU <bondia-luttiau@et.esiea.fr>",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-vue": "^7.3.0"
+  }
+}

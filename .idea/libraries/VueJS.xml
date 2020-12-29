@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="VueJS" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/static/js/vue.js" />
+        <item url="file://$PROJECT_DIR$/static/js/vuetify.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/static/js/vue.js" />
+      <root url="file://$PROJECT_DIR$/static/js/vuetify.js" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
