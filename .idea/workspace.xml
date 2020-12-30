@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09054278-9f58-4e75-ab4d-89d1efceb014" name="Default Changelist" comment="Ajout de la PWA">
+    <list default="true" id="09054278-9f58-4e75-ab4d-89d1efceb014" name="Default Changelist" comment="Added linter results">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/database/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/database/database.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/items_routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/items_routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/moves_routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/moves_routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/pokemons_routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/pokemons_routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/types_routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/types_routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/robots.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +59,7 @@
       <recent name="V:\Boulot\ESIEA\4A\web_oriente_mobile\projet_web_bonus\static\js" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.lint">
+  <component name="RunManager" selected="Compound.Projet">
     <configuration name="Projet" type="CompoundRunConfigurationType">
       <toRun name="start_server" type="js.build_tools.npm" />
       <toRun name="serve_vue" type="js.build_tools.npm" />
@@ -135,9 +130,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.lint (1)" />
-        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +146,7 @@
       <updated>1609095014243</updated>
       <workItem from="1609095016466" duration="3601000" />
       <workItem from="1609156151152" duration="24849000" />
-      <workItem from="1609253016666" duration="31996000" />
+      <workItem from="1609253016666" duration="32930000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout de la PWA">
       <created>1609288563996</created>
@@ -160,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609288563996</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added linter results">
+      <created>1609288874161</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609288874161</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +186,8 @@
       <path value="$PROJECT_DIR$/client" />
     </ignored-roots>
     <MESSAGE value="Ajout de la PWA" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la PWA" />
+    <MESSAGE value="Added linter results" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added linter results" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
