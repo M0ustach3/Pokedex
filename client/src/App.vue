@@ -6,8 +6,6 @@
       <v-btn icon @click.stop="navigationDrawer = !navigationDrawer">
         <v-icon>$logo</v-icon>
       </v-btn>
-      <v-app-bar-title>Pokédex
-      </v-app-bar-title>
       <v-spacer></v-spacer>
       <v-btn icon @click="changeTheme">
         <v-icon v-if="$vuetify.theme.dark">mdi-brightness-4</v-icon>
