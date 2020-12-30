@@ -1,30 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09054278-9f58-4e75-ab4d-89d1efceb014" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/public/img/icons/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/img/icons/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/img/icons/android-chrome-maskable-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/img/icons/android-chrome-maskable-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/img/icons/apple-touch-icon-120x120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/img/icons/apple-touch-icon-152x152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/img/icons/apple-touch-icon-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/img/icons/apple-touch-icon-60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/img/icons/apple-touch-icon-76x76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/img/icons/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/img/icons/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/img/icons/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/img/icons/msapplication-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/img/icons/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/img/icons/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/registerServiceWorker.js" afterDir="false" />
+    <list default="true" id="09054278-9f58-4e75-ab4d-89d1efceb014" name="Default Changelist" comment="Ajout de la PWA">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/database/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/database/database.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/items_routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/items_routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/moves_routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/moves_routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/pokemons_routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/pokemons_routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/types_routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/types_routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +64,7 @@
       <recent name="V:\Boulot\ESIEA\4A\web_oriente_mobile\projet_web_bonus\static\js" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.lint">
     <configuration name="Projet" type="CompoundRunConfigurationType">
       <toRun name="start_server" type="js.build_tools.npm" />
       <toRun name="serve_vue" type="js.build_tools.npm" />
@@ -95,6 +80,16 @@
       <command value="run" />
       <scripts>
         <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="lint (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -136,11 +131,13 @@
       <item itemvalue="npm.serve_vue" />
       <item itemvalue="npm.lint" />
       <item itemvalue="npm.build" />
+      <item itemvalue="npm.lint (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.lint" />
+        <item itemvalue="npm.lint (1)" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -154,8 +151,16 @@
       <updated>1609095014243</updated>
       <workItem from="1609095016466" duration="3601000" />
       <workItem from="1609156151152" duration="24849000" />
-      <workItem from="1609253016666" duration="31569000" />
+      <workItem from="1609253016666" duration="31996000" />
     </task>
+    <task id="LOCAL-00001" summary="Ajout de la PWA">
+      <created>1609288563996</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609288563996</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +183,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/client" />
     </ignored-roots>
+    <MESSAGE value="Ajout de la PWA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la PWA" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

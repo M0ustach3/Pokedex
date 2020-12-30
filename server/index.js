@@ -2,11 +2,11 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const corsOptions = {
-  origin: '*', // Pas forcément bon pour tous les hosts, mais bon, pour les tests ça passe
-  optionsSuccessStatus: 200
+  origin: '*',
+  optionsSuccessStatus: 200,
 };
 
-app.use(cors(corsOptions))
+app.use(cors(corsOptions));
 
 app.use(express.static('static'));
 

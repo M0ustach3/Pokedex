@@ -1,5 +1,5 @@
-let router = require('express').Router();
-const pokemons = require('../database/database').getPokemons()
+const router = require('express').Router();
+const pokemons = require('../database/database').getPokemons();
 fs = require('fs');
 
 function getStats() {
@@ -50,22 +50,22 @@ function getStats() {
     }
   });
   return {
-    "max": {
-      maxHP, maxAttack, maxDefense, maxSpAttack, maxSpDefense, maxSpeed
+    'max': {
+      maxHP, maxAttack, maxDefense, maxSpAttack, maxSpDefense, maxSpeed,
     },
-    "min": {
-      minHP, minAttack, minDefense, minSpAttack, minSpDefense, minSpeed
-    }
+    'min': {
+      minHP, minAttack, minDefense, minSpAttack, minSpDefense, minSpeed,
+    },
   };
 }
 
 
-router.get('/', function (req, res) {
+router.get('/', function(req, res) {
   res.send({pokemons, stats: getStats()});
 });
 
-router.get('/stats', function (req, res) {
-  res.send(getStats())
+router.get('/stats', function(req, res) {
+  res.send(getStats());
 });
 
 module.exports = router;
