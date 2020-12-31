@@ -6,6 +6,8 @@ const corsOptions = {
   optionsSuccessStatus: 200,
 };
 
+const APP_PORT = 8080;
+
 app.use(cors(corsOptions));
 
 app.use(express.static('static'));
@@ -15,6 +17,6 @@ app.use('/api/items', require('./routes/items_routes'));
 app.use('/api/moves', require('./routes/moves_routes'));
 app.use('/api/types', require('./routes/types_routes'));
 
-app.listen(8080, () => {
-  console.log(`Server listening on 8080`);
+app.listen(APP_PORT, () => {
+  console.log(`Server listening on ${APP_PORT}`);
 });
