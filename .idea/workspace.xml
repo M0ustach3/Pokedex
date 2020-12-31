@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="09054278-9f58-4e75-ab4d-89d1efceb014" name="Default Changelist" comment="Added linter results">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +40,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.19.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.19.0" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.17" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/static/js/vuetify.js" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -147,6 +150,7 @@
       <workItem from="1609095016466" duration="3601000" />
       <workItem from="1609156151152" duration="24849000" />
       <workItem from="1609253016666" duration="32930000" />
+      <workItem from="1609424585268" duration="399000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout de la PWA">
       <created>1609288563996</created>
